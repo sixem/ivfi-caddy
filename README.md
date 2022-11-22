@@ -1,7 +1,7 @@
 # CaddEye
 A dark directory listing theme for the Caddy web server.
 
-> This is a fork of [eyy-indexer](https://github.com/sixem/eyy-indexer) with changes that makes it compatible with Caddy.
+> This is a fork of [eyy-indexer](https://github.com/sixem/eyy-indexer) with changes that makes it compatible with [Caddy](https://github.com/caddyserver/caddy).
 
 ## Features
 + :tv: Gallery mode for viewing images and videos.
