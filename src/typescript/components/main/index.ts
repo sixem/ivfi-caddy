@@ -70,13 +70,13 @@ main.menu.create = () =>
 			text: data.text.menuLabels.gallery.text,
 			id: 'gallery'
 		});
-	}
 
-	items.unshift({
-		text: data.text.menuLabels.settings.text,
-		id: 'settings',
-		class: 'settings'
-	});
+		items.unshift({
+			text: data.text.menuLabels.settings.text,
+			id: 'settings',
+			class: 'settings'
+		});
+	}
 
 	items.forEach((item) =>
 	{
