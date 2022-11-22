@@ -134,7 +134,7 @@
 		{{- range .Items -}}
 			{{- if .IsDir -}}
 				{{- $dirName := trimSuffix "/" .Name -}}
-				{{- if ne $dirName "Indexer" -}}
+				{{- if ne $dirName "CaddEye" -}}
 				<tr class="directory">
 					<td data-raw="{{- html .Name -}}">
 						<a href="{{- html .URL -}}">[{{- html $dirName -}}]</a>
@@ -205,7 +205,7 @@
 	<div class="bottom">
 		<span>Browsing <span>{{html .Path}}{{- if not (hasSuffix "/" .Path) -}}/{{- end -}}</span> ...</span>
 		<div class="referenceGit">
-			<a target="_blank" href="https://github.com/sixem/caddeye">CaddEye</a>
+			<a target="_blank" href="https://github.com/sixem/CaddEye">CaddEye</a>
 		</div>
 	</div>
 
