@@ -1,0 +1,30 @@
+{
+  "name": "caddeye",
+  "version": "1.0.0",
+  "description": "A dark directory listing theme for the Caddy web server",
+  "main": "./src/typescript/index.ts",
+  "scripts": {
+    "build": "rm -rf ./dist && webpack --config webpack.config.js --mode=production",
+    "build-dev": "rm -rf ./dist && webpack --config webpack.config.js --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "emy",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/modernizr": "^3.5.3",
+    "autoprefixer": "^10.4.13",
+    "css-loader": "^6.7.2",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "mini-css-extract-plugin": "^2.7.0",
+    "postcss-loader": "^7.0.1",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.9.3",
+    "webpack-cli": "^5.0.0"
+  },
+  "dependencies": {
+    "js-cookie": "^3.0.1",
+    "vanilla-swipe": "^2.4.1"
+  }
+}
