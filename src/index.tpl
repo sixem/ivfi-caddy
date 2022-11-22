@@ -34,6 +34,7 @@
 {{- $dateFormat := "02/01/2006 15:04" -}}
 {{- $performanceThreshold := 100 -}}
 {{- $hoverPreviews := true -}}
+{{- $galleryMode := true -}}
 {{- $compactMode := false -}}
 {{- $encodeAll := true -}}
 {{- $debug := true -}}
@@ -136,7 +137,7 @@
 				{{- if ne $dirName "Indexer" -}}
 				<tr class="directory">
 					<td data-raw="{{- html .Name -}}">
-						<a href="{{- html .URL -}}">[{{- $dirName -}}]</a>
+						<a href="{{- html .URL -}}">[{{- html $dirName -}}]</a>
 					</td>
 
 					<td data-raw="{{html .ModTime}}">
@@ -239,7 +240,7 @@
 			   "order":"{{- $sortOrder -}}"
 			},
 			"gallery":{
-				"enabled":true,
+				"enabled":{{- $galleryMode -}},
 				"reverseOptions":false,
 				"scrollInterval":50,
 				"listAlignment":0,
