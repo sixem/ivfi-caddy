@@ -1,3 +1,5 @@
+const package = require('./package.json');
+
 const TerserPlugin = require('terser-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
@@ -6,7 +8,16 @@ const webpack = require('webpack');
 
 const banner = () =>
 {
-	return `CaddEye\n`;
+	return `    CaddEye ${package.version}
+
+    ${package.description}
+    
+    
+    GitHub: [https://github.com/sixem/CaddEye]
+
+    Author: ${package.author}
+    
+    License: ${package.license}`;
 };
 
 module.exports = (env, argv) => {
@@ -23,7 +34,7 @@ module.exports = (env, argv) => {
         },
         output: {
             filename: 'main.js',
-            path: __dirname + '/dist/'
+            path: __dirname + '/dist/CaddEye/'
         },
 		optimization: {
 			minimize: isProduction ? true : false,
