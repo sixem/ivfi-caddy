@@ -15,4 +15,4 @@ A dark directory listing theme for the Caddy web server.
 + :desktop_computer: Works well on both mobile and desktop
 
 ## Preview
-![image](https://user-images.githubusercontent.com/2825338/203202739-890edba3-428a-4a16-b334-1e9e87294d4f.png)
+![image](https://user-images.githubusercontent.com/2825338/203448761-571bb742-cc12-4ccc-8543-69a60010c8ce.png)
