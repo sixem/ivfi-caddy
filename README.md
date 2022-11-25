@@ -16,3 +16,19 @@ A dark directory listing theme for the Caddy web server.
 
 ## Preview
 ![image](https://user-images.githubusercontent.com/2825338/203448761-571bb742-cc12-4ccc-8543-69a60010c8ce.png)
+
+## Setup
+Download the files from the latest [release](https://github.com/sixem/CaddEye/releases), or build it from source yourself:
+```bash
+git clone https://github.com/sixem/CaddEye
+cd CaddEye && npm install
+npm run build
+```
+Place the files in your root web directory, for example:
+```
+/var/www/html/CaddEye/
+```
+Then enable `browse` in your Caddyfile and use the theme's template:
+```
+browse / /var/www/html/CaddEye/index.tpl
+```
