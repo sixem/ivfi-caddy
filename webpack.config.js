@@ -8,12 +8,12 @@ const webpack = require('webpack');
 
 const banner = () =>
 {
-	return `    CaddEye ${package.version}
+	return `    IVFi (Caddy) ${package.version}
 
     ${package.description}
     
     
-    GitHub: [https://github.com/sixem/CaddEye]
+    GitHub: [https://github.com/sixem/ivfi-caddy]
 
     Author: ${package.author}
     
@@ -34,7 +34,7 @@ module.exports = (env, argv) => {
         },
         output: {
             filename: 'main.js',
-            path: __dirname + '/dist/CaddEye/'
+            path: __dirname + '/dist/ivfi-caddy/'
         },
 		optimization: {
 			minimize: isProduction ? true : false,
