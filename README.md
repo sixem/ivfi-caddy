@@ -2,8 +2,16 @@
 <p align="center">
   <img height="100" src="./icon.svg">
 </p>
+
 <br/>
-<h2 align="center">The image and video friendly indexer</h2>
+
+<h3 align="right">The image and video friendly indexer</h3>
+
+<br/>
+
+IVFi is a directory lister that aims to make it easy to browse web-based directories.
+
+The Indexer is designed to look appealing while also being easy to use. It works with any type of directory, but it has a special focus on image and video files. This is reflected in the many media friendly features it has, where the most prominent ones are hoverable previews and a complete gallery view mode. 
 
 ## Features
 + :tv: Gallery mode for viewing images and videos
