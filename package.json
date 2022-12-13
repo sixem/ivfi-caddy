@@ -1,6 +1,6 @@
 {
-  "name": "caddeye",
-  "version": "1.0.0",
+  "name": "ivfi-caddy",
+  "version": "1.2.1",
   "description": "A dark directory listing theme for the Caddy web server",
   "main": "./src/typescript/index.ts",
   "scripts": {
