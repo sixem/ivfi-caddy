@@ -205,7 +205,7 @@
 	<div class="bottom">
 		<span>Browsing <span>{{html .Path}}{{- if not (hasSuffix "/" .Path) -}}/{{- end -}}</span> ...</span>
 		<div class="referenceGit">
-			<a target="_blank" href="https://github.com/sixem/CaddEye">CaddEye</a>
+			<a target="_blank" href="https://ivfi.io/">IVFi</a>
 		</div>
 	</div>
 
