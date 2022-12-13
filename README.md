@@ -1,7 +1,9 @@
-# CaddEye
-A dark directory listing theme for the Caddy web server.
 
-> This is a fork of [eyy-indexer](https://github.com/sixem/eyy-indexer) with changes that makes it compatible with [Caddy](https://github.com/caddyserver/caddy).
+<p align="center">
+  <img height="100" src="./icon.svg">
+</p>
+<br/>
+<h2 align="center">The image and video friendly indexer</h2>
 
 ## Features
 + :tv: Gallery mode for viewing images and videos
@@ -18,17 +20,17 @@ A dark directory listing theme for the Caddy web server.
 ![image](https://user-images.githubusercontent.com/2825338/203448761-571bb742-cc12-4ccc-8543-69a60010c8ce.png)
 
 ## Setup
-Download the files from the latest [release](https://github.com/sixem/CaddEye/releases), or build it from source yourself:
+Download the files from the latest [release](https://github.com/sixem/ivfi-caddy/releases), or build it from source yourself:
 ```bash
-git clone https://github.com/sixem/CaddEye
-cd CaddEye && npm install
+git clone https://github.com/sixem/ivfi-caddy
+cd ivfi-caddy && npm install
 npm run build
 ```
 Place the files in your root web directory, for example:
 ```
-/var/www/html/CaddEye/
+/var/www/html/ivfi-caddy/
 ```
 Then enable `browse` in your Caddyfile and use the theme's template:
 ```
-browse / /var/www/html/CaddEye/index.tpl
+browse / /var/www/html/ivfi-caddy/index.tpl
 ```
