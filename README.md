@@ -5,9 +5,11 @@
 
 <br/>
 
-<h3 align="right">The image and video friendly indexer</h3>
+<h3 align="center"><i>The image and video friendly indexer</i></h3>
 
 <br/>
+
+---
 
 IVFi is a directory lister that aims to make it easy to browse web-based directories.
 
